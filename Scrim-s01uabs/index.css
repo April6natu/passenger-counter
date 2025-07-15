@@ -1,0 +1,60 @@
+body {
+    background-image: url("station.jpeg");
+    background-size: cover;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#increment-btn {
+    background: linear-gradient(135deg, #D2691E, #8B4513);
+    border: 1px solid #654321;
+}
+
+#save-btn {
+    background: linear-gradient(135deg, #4682B4, #2F4F4F);
+    border: 1px solid #1C3A3A;
+}
+
